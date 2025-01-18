@@ -22,7 +22,7 @@ A **Graph** is a collection of nodes (also called vertices) and edges that conne
 
 Here’s the JavaScript implementation of the graph:  
 
-\`\`\`javascript
+```javascript
 class Graph {
     constructor() {
         this.vertices = {}; // Stores all vertices (nodes)
@@ -69,13 +69,13 @@ class Graph {
         console.log(this.vertices);
     }
 }
-\`\`\`
+```
 
 ---
 
 ## Example Usage  
 
-\`\`\`javascript
+```javascript
 // Initialize the graph
 const graph = new Graph();
 
@@ -98,7 +98,7 @@ graph.display(); // Output: { A: [ 'C' ], B: [], C: [ 'A' ] }
 // Remove a vertex
 graph.removeVertex("C");
 graph.display(); // Output: { A: [], B: [] }
-\`\`\`
+```
 
 ---
 
@@ -118,15 +118,15 @@ Want to see a quick tutorial on how to build this? Check out this TikTok video:
 
 ## How to Run the Code  
 1. Clone the repository:  
-   \`\`\`bash
+   ```bash
    git clone https://github.com/fix2015/structure_graph
    cd structure_graph
-   \`\`\`
+   ```
 2. Open the file `index.js` in your favorite code editor.  
 3. Run the file using Node.js:  
-   \`\`\`bash
+   ```bash
    node index.js
-   \`\`\`
+   ```
 
 ---
 
